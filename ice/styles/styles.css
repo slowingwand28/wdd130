@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #5ca1d7;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.hover:hover{
+    color: black;
+}
+
+.principles{
+    color: black;
+    text-align: left;
+}
+
+.image{
+    max-width: 200px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+footer{
+    color: black;
+}
