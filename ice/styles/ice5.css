@@ -1,7 +1,19 @@
 body {
     margin: 0;
+    background-color: grey;
 }
 
 .hero {
     width: 100%;
+}
+
+.circleimages {
+    text-align: center;
+}
+
+.circleimages .circle {
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(70, 70, 70);
+    margin: 15px;
 }
