@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tart {
+    grid-column: 1/3;
+}
+
+.image {
+    grid-row: 1/3;
+}
