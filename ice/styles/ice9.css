@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
