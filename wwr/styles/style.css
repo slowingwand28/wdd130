@@ -102,6 +102,105 @@ nav a:hover {
     border: 2px solid #b2ebf2;
 }
 
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    font-size: 0.9em;
+}
+
+.card a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #0077cc;
+    border: 1px solid #0077cc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card a:hover {
+    background-color: #0077cc;
+    color: white;
+}
+
+.salmonriver {
+    margin: 0 10% 5% 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.desolation {
+    margin: 0 10% 5% 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.grandcanyon {
+    margin: 0 10% 5% 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.riverimage {
+    max-width: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    border-top: 3px solid #005fa3;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1em; 
+    margin: 10px 0;
+}
+
+.social-media a {
+    margin: 0 15px;
+}
+
+.social-media img {
+    width: 80px;
+    height: auto;
+}
+
 @media (max-width: 768px) {
     .header-grid {
         grid-template-columns: 1fr; 
@@ -151,78 +250,4 @@ nav a:hover {
     .social-media img {
         width: 60px; 
     }
-}
-
-.card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-}
-
-.card h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.card p {
-    padding: 0 15px 15px;
-    font-size: 0.9em;
-}
-
-.card a {
-    display: inline-block;
-    margin: 10px 0;
-    text-decoration: none;
-    color: #0077cc;
-    border: 1px solid #0077cc;
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.card a:hover {
-    background-color: #0077cc;
-    color: white;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    width: 100%;
-    border-top: 3px solid #005fa3;
-}
-
-.footer-content {
-    margin: 0 auto;
-}
-
-footer p {
-    font-size: 1em; 
-    margin: 10px 0;
-}
-
-.social-media a {
-    margin: 0 15px;
-}
-
-.social-media img {
-    width: 80px;
-    height: auto;
 }
